@@ -3,8 +3,7 @@
 The Matlab file lora_phy_simulator.m is a simulation tool for testing the performance of a LoRa link in case of collision between LoRa packets modulated
   with different spreading factors. You can use it for obtaining the results presented in Table 1 of our paper.
   The output is the packet, symbol and bit error rate (PER, SER and BER respectively) for each spreading factor,
-  interfered with any other possible spreading factor. In particular, Figure 1 is the current experiment, while Figures 2-8
-  are the resulting BER curves for spreading factors 7 to 12 (as shown in Fig. 3 in the paper).
+  interfered with any other possible spreading factor. 
 
   Editing the script you can change the following parameters:
   - Min reference SF		 (SF_min=6 default)
